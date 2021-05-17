@@ -15,5 +15,4 @@
 
 #gatsby-focus-wrapper > div.menubar > p:hover{
     color: gray;
-    transition-delay: (3s);
 }
