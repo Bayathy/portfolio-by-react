@@ -5,9 +5,9 @@ import "./menubar.css"
 
 const Menubar = () =>(
     <div className="menubar">
-        <p>Home</p>
-        <p>Works</p>
-        <p>History</p>
+        <p className="menucontainar">Home</p>
+        <p className="menucontainar">Works</p>
+        <p className="menucontainar">History</p>
     </div>
 )
 
