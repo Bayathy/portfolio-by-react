@@ -5,6 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Menubar from "./Menubar"
 import Header from "./header"
 import Back from "./background"
+import contents from"./contents"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -22,7 +23,7 @@ const Layout = ({ children }) => {
     <>
       <Back/>
       <Menubar/>
-      
+      <contents/>
     </>
   )
 }

@@ -1,8 +1,10 @@
 import * as React from "react"
 
-import "contents.css"
+import "./contents.css"
 
-const contents = () =>{
+const contents = () =>(
     <div className="contents">
     </div>
-}
+)
+
+export default contents
