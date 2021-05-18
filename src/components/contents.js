@@ -7,9 +7,9 @@ import "./contents.css"
 
 const contents = () =>(
     <diV>
-    <Home/>
+    <Home id="home"/>
     <About/>
-    <Work/>
+    <Work id="works"/>
     </diV>
 )
 

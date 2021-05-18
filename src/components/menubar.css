@@ -15,8 +15,14 @@
 
 .menucontainar{
     margin-top: 5vh;
+    opacity: 0.6;
 }
 
-.menubar p:hover{
-    color: gray;
+.menubar p{
+    color: white;
+    opacity: 0.6;
+}
+
+.active{
+    opacity: 1.0;
 }

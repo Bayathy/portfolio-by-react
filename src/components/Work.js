@@ -6,7 +6,7 @@ import "./Work.css"
 
 const Work = ()=>(
     <div class="works-back">
-        <div><p className="Work">Works</p></div>
+        <div id="works"><p className="Work">Works</p></div>
         <WorkCard className="WorkCard" file={Workimg} text={"このサイト"}/>
     </div>
 )
