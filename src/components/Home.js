@@ -5,7 +5,7 @@ import "./Home.css"
 
 const Home = () =>(
     <div className="Home">
-    <p className="detail-name">Kobayashi   Keito</p>
+    <p className="detail-name">Hello!<br></br>I'm<br></br>Kobayashi   Keito!</p>
     </div>
 )
 

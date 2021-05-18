@@ -2,3 +2,12 @@
     background-color:rgba(0,0,0, 0.2);
     
 }
+
+.About{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 8rem;
+    font-family: 'Roboto', sans-serif;
+}
