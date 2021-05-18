@@ -1,0 +1,16 @@
+.worksamples{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+}
+
+.works-img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.works-detail{
+    width: 100%;
+    text-align: center;
+}
