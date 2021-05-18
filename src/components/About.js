@@ -7,7 +7,8 @@ import Box from "./detailbox"
 
 const About =()=>(
     <div className="about-back">
-        <Box title={" About "} sent={"鈴鹿高専電子情報工学科二年生です。"}></Box>
+        <div><p className="About">About</p></div>
+        <Box title={"My Profile"} sent={"鈴鹿高専電子情報工学科二年生です。"}></Box>
         <Box title={"Skils"} sent={"Reactを勉強中です。自信のあるスキルなどはありませんが、これからの人生をプログラミングに捧げるつもりです。"}></Box>
     </div>
 )

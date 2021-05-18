@@ -4,10 +4,12 @@
 }
 
 .About{
+    text-align: center;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: 20%;
     color: black;
+    border-bottom: 15px solid;
     font-size: 8rem;
     font-family: 'Roboto', sans-serif;
 }
