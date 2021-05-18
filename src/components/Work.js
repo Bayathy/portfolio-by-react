@@ -5,7 +5,8 @@ import "./Work.css"
 
 const Work = ()=>(
     <div class="works-back">
-    <WorkCard file={""} text={"このサイト"}/>
+        <div><p className="Work">Work</p></div>
+        <WorkCard className="WorkCard" file={""} text={"このサイト"}/>
     </div>
 )
 

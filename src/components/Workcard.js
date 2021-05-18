@@ -1,9 +1,9 @@
 import * as React from "react"
 
-import "./Work.css"
+import "./Workcard.css"
 
 const WorkCard = (props) =>(
-    <div className="workssample">
+    <div className="worksample">
     <img src ={props.file} className="works-img"/>
     <p className="works-detail">{props.text}</p>
     </div>
