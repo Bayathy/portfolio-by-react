@@ -1,10 +1,10 @@
 import * as React from "react"
+import Home from"./Home"
 
 import "./contents.css"
 
 const contents = () =>(
-    <div className="contents">
-    </div>
+    <Home/>
 )
 
 export default contents

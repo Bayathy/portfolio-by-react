@@ -3,9 +3,12 @@ import PropTypes from "prop-types"
 
 import "./menubar.css"
 
+
+
 const Menubar = () =>(
     <div className="menubar">
         <p className="menucontainar">Home</p>
+        <p className="menucontainar">About</p>
         <p className="menucontainar">Works</p>
         <p className="menucontainar">History</p>
     </div>

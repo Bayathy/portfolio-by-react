@@ -10,10 +10,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 20vh;
-    margin-right: 70vw;
     cursor: default;
 }
 
-#gatsby-focus-wrapper > div.menubar > p:hover{
+.menucontainar{
+    margin-top: 5vh;
+}
+
+.menubar p:hover{
     color: gray;
 }

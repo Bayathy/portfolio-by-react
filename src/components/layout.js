@@ -6,6 +6,8 @@ import Menubar from "./Menubar"
 import Header from "./header"
 import Back from "./background"
 import Contents from "./contents"
+
+
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -22,8 +24,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <Back/>
-      <Menubar/>
-      <Contents/>
+      <div className="flex">
+        <div className="flex-left">
+          <Menubar/>
+        </div>
+        <div className="flex-right">
+          <Contents/>
+        </div>
+      </div>
     </>
   )
 }

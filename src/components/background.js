@@ -7,7 +7,7 @@ const Back = ()=>(
             "autoPlay": true,
             "background": {
               "color": {
-                "value": "#000"
+                "value": "#FFFFFF"
               },
               "image": "",
               "position": "",
